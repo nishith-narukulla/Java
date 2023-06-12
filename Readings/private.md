@@ -9,7 +9,7 @@
 
 ## private variable
 
--usage
+- usage
 > private int a;
 
 - can be accessible
