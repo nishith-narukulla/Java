@@ -8,6 +8,6 @@
   .....
 }
 
-class AnotherClass{
+> class AnotherClass{
   ....
 }

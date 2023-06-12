@@ -3,7 +3,7 @@
 ## default class
 
 - usage
-> no need to mention anything
+    - no need to mention anything
 > class Main{
     ....
 }
@@ -12,7 +12,7 @@
 
 ## default variable
 
--usage
+- usage
 > int a;
 
 - can be accessible
