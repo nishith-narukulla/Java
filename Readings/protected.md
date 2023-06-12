@@ -8,7 +8,7 @@
 
 ## protected variable
 
--usage
+- usage
 > protected int a;
 
 - can be accessible
