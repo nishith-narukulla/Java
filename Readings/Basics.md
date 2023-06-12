@@ -33,6 +33,8 @@
   - stores native method info
   - every thread has its own stack
 
+------------------------END of JVM Basics----------------------
+
 - class name should match with File name
 - we can create multiple classes in a single file but
   there should be only one public class in a file.
