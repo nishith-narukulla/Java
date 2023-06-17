@@ -90,3 +90,21 @@ for-each loop:
 - toString(originalArray)
     - returns string repr of array elements
     > System.out.println(Arrays.toString(arr)); // [1,2,35,7,4,3,69]
+
+## Reflection Array Class
+
+- provides static methods to create and access Java arrays dynamically.
+- initialization using newInstance() method
+    > type[] arr = (type[]) Array.newInstance(type.class, size);
+
+    > int[] arr = (int[]) Array.newInstance(Int.class, 10);
+
+### Methods
+
+> int arr[] = {1,2,36,7,5,4,9};
+
+- int getLength(Object array)	
+    - returns length
+- void set(Object array, int index, Object value)
+    - sets value at given index
+- 
