@@ -1,5 +1,1 @@
-
-- fkwwefkwegfkenvgkhnsdvg
-    - kwsmfbkqebgkbkn
-
->    print("Hello")
+    print("Hello")
