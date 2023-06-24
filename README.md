@@ -11,7 +11,7 @@
 
 - packages
 - OOP, Classes, Interfaces
-- Data Structers
+- Data Structures
 - File Handling and working with APIs
 
 ## Getting Deeper
