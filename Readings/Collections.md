@@ -170,6 +170,62 @@ System.out.println(s.indexOf(2));
 ### HashSet
 - an inherent implementation of the hash table data structure or Hashing
 - The objects are inserted based on their hash code.
+```java
+// defining HashMap
+HashMap<int, int> hash = new HashMap<>();
+
+// Adding elements to the map
+// Also updating elements
+hash.put(1,1);
+hash.put(2,1);
+hash.put(3,1);
+
+// size of the map
+sout(hash.size());
+
+// printing elements of map
+sout(hash);
+
+// checking key, value existence
+hash.containsKey();
+hash.containsValue();
+
+// getting value with key
+sout(hash.get(1));
+
+// removing element with a key
+hash.remove(key);
+
+// iterating through the map
+for(Map.Entry<Integer, Integer> map: hash.entrySet()){
+    System.out.println(map.getKey() + " --> " + map.getValue());
+}
+
+// clears all the mappings
+hash.clear();
+
+// cloning to another map
+HashMap<Integer, Integer>hash2 = (HashMap<Integer, Integer>) hash.clone();
+
+hash.isEmpty();
+
+hash.keySet(); // [1, 2, 3]
+
+hash.values(); // [2, 1, 1]
+```
+- **Performance of HashMap**
+    - depends on Initial Capacity, Load Factor
+**Initial Capacity** 
+– It is the capacity of HashMap at the time of its creation (It is the number of buckets a HashMap can hold when the HashMap is instantiated). In java, it is 2^4=16 initially, meaning it can hold 16 key-value pairs.
+
+**Load Factor**
+– It is the percent value of the capacity after which the capacity of Hashmap is to be increased (It is the percentage fill of buckets after which Rehashing takes place). In java, it is 0.75f by default, meaning the rehashing takes place after filling 75% of the capacity.
+
+**Threshold**
+– It is the product of Load Factor and Initial Capacity. In java, by default, it is (16 * 0.75 = 12). That is, Rehashing takes place after inserting 12 key-value pairs into the HashMap.
+
+**Rehashing**
+– It is the process of doubling the capacity of the HashMap after it reaches its Threshold. In java, HashMap continues to rehash(by default) in the following sequence – 2^4, 2^5, 2^6, 2^7, …. so on. 
 
 ### LinkedHashSet
 - similar to a HashSet
